@@ -2,7 +2,7 @@ from fastapi import Depends , HTTPException , status , Cookie
 from sqlalchemy.orm import Session 
 from app.db.database import get_db
 from app.models.user import UserModel
-from app.core.secutiry import decode_token
+from app.core.security import decode_token
 
 """This Dependecy helps to get the user from cookie """
 

@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from app.routes.user import router as user_router 
 from app.db.database import Base , engine 
 
+
 app = FastAPI()
 
 #create tables if not exists
